@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      2447,         73]
-NotebookOptionsPosition[      1485,         47]
-NotebookOutlinePosition[      2370,         72]
-CellTagsIndexPosition[      2327,         69]
+NotebookDataLength[      3701,        109]
+NotebookOptionsPosition[      2520,         79]
+NotebookOutlinePosition[      3404,        104]
+CellTagsIndexPosition[      3361,        101]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -43,10 +43,42 @@ Cell[BoxData[
 Cell[BoxData["233168"], "Output",
  CellChangeTimes->{3.84621960300858*^9, 3.8462198853150687`*^9},
  CellLabel->"Out[2]=",ExpressionUUID->"e24cd49e-99e8-43fe-83c4-787549014729"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"with", " ", "exclusive"}], "-", 
+    RowBox[{"inclusive", " ", 
+     RowBox[{"principle", ":"}]}]}], "\[IndentingNewLine]", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Sum", "[", 
+    RowBox[{"x", ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0", ",", "999", ",", "3"}], "}"}]}], "]"}], "+", 
+   RowBox[{"Sum", "[", 
+    RowBox[{"x", ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0", ",", "999", ",", "5"}], "}"}]}], "]"}], "-", 
+   RowBox[{"Sum", "[", 
+    RowBox[{"x", ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0", ",", "999", ",", "15"}], "}"}]}], 
+    "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.846220300864189*^9, 3.8462203312499285`*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"5cf22aef-db3b-4c74-abde-f00cb8bc0e1e"],
+
+Cell[BoxData["233168"], "Output",
+ CellChangeTimes->{3.84622033291444*^9},
+ CellLabel->"Out[15]=",ExpressionUUID->"aed0faf0-cc9f-4c91-88bc-50cbc250ebc0"]
 }, Open  ]]
 },
 WindowSize->{786, 554},
-WindowMargins->{{134, Automatic}, {150, Automatic}},
+WindowMargins->{{Automatic, 482}, {81, Automatic}},
 FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (July 9, 2021)",
 StyleDefinitions->Notebook[{
    Cell[
@@ -73,11 +105,13 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 710, 18, 70, "Input",ExpressionUUID->"0697ccb1-a45b-45f8-8738-aa088ca202c5"],
-Cell[1293, 42, 176, 2, 67, "Output",ExpressionUUID->"e24cd49e-99e8-43fe-83c4-787549014729"]
+Cell[1293, 42, 176, 2, 42, "Output",ExpressionUUID->"e24cd49e-99e8-43fe-83c4-787549014729"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1506, 49, 842, 23, 132, "Input",ExpressionUUID->"5cf22aef-db3b-4c74-abde-f00cb8bc0e1e"],
+Cell[2351, 74, 153, 2, 67, "Output",ExpressionUUID->"aed0faf0-cc9f-4c91-88bc-50cbc250ebc0"]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
