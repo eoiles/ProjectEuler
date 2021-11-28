@@ -1,0 +1,57 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1422,         47]
+NotebookOptionsPosition[       900,         31]
+NotebookOutlinePosition[      1472,         49]
+CellTagsIndexPosition[      1429,         46]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Max", "[", 
+  RowBox[{"Times", "@@@", 
+   RowBox[{"Partition", "[", 
+    RowBox[{
+     RowBox[{"IntegerDigits", "[", "num", "]"}], ",", "13", ",", "1"}], 
+    "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8470981007283697`*^9, 
+  3.8470981007303653`*^9}},ExpressionUUID->"01e2dd54-6ea7-490c-9f49-\
+f88ba544f423"]
+},
+WindowSize->{557, 586},
+WindowMargins->{{673, Automatic}, {Automatic, 217}},
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (July 9, 2021)",
+StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "C:", "Users", "stary", 
+   "AppData", "Roaming", "Mathematica", "SystemFiles", "FrontEnd", 
+   "StyleSheets"}, "OD.nb", CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"e8abc84a-33ff-459d-9a1e-3d4a712ba8ab"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 338, 9, 70, "Input",ExpressionUUID->"01e2dd54-6ea7-490c-9f49-f88ba544f423"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
