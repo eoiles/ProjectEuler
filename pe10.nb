@@ -1,0 +1,64 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1780,         56]
+NotebookOptionsPosition[      1134,         37]
+NotebookOutlinePosition[      1705,         55]
+CellTagsIndexPosition[      1662,         52]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Sum", "[", 
+  RowBox[{
+   RowBox[{"Prime", "[", "x", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", 
+     RowBox[{"PrimePi", "[", "2000000", "]"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.847222128476668*^9, 3.847222142877629*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"b750998a-ee6e-468d-9620-2048367fd0a6"],
+
+Cell[BoxData["142913828922"], "Output",
+ CellChangeTimes->{{3.8472221298972497`*^9, 3.8472221434785814`*^9}},
+ CellLabel->"Out[2]=",ExpressionUUID->"09eb3557-78c4-4619-b457-03a327ac79a7"]
+}, Open  ]]
+},
+WindowSize->{557, 586},
+WindowMargins->{{615, Automatic}, {11, Automatic}},
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (July 9, 2021)",
+StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "C:", "Users", "stary", 
+   "AppData", "Roaming", "Mathematica", "SystemFiles", "FrontEnd", 
+   "StyleSheets"}, "OD.nb", CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"005c05aa-9900-4096-949b-323a7c8b0ee8"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 348, 8, 38, "Input",ExpressionUUID->"b750998a-ee6e-468d-9620-2048367fd0a6"],
+Cell[931, 32, 187, 2, 42, "Output",ExpressionUUID->"09eb3557-78c4-4619-b457-03a327ac79a7"]
+}, Open  ]]
+}
+]
+*)
+
