@@ -10,49 +10,57 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      2267,         72]
-NotebookOptionsPosition[      1617,         53]
-NotebookOutlinePosition[      2189,         71]
-CellTagsIndexPosition[      2146,         68]
+NotebookDataLength[      2671,         80]
+NotebookOptionsPosition[      2019,         61]
+NotebookOutlinePosition[      2592,         79]
+CellTagsIndexPosition[      2549,         76]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[BoxData[
+Cell[BoxData[{
  RowBox[{
   RowBox[{
    RowBox[{"num", "[", "x_", "]"}], ":=", 
    RowBox[{"Binomial", "[", 
     RowBox[{
-     RowBox[{"x", "+", "1"}], ",", "2"}], "]"}]}], ";", 
+     RowBox[{"x", "+", "1"}], ",", "2"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
   RowBox[{
    RowBox[{"val", "[", "x_", "]"}], ":=", 
    RowBox[{"Divisors", "@", 
-    RowBox[{"num", "@", "x"}]}]}], " ", ";", 
-  RowBox[{"n", "=", "1"}], ";", 
-  RowBox[{"While", "[", 
-   RowBox[{
-    RowBox[{
-     RowBox[{"Length", "@", 
-      RowBox[{"val", "[", "n", "]"}]}], "<=", "500"}], ",", 
-    RowBox[{"n", "++"}]}], "]"}], " ", ";", 
+    RowBox[{"num", "@", "x"}]}]}], " ", ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Do", "[", 
   RowBox[{
-   RowBox[{"val", "[", "n", "]"}], "[", 
-   RowBox[{"[", 
-    RowBox[{"-", "1"}], "]"}], "]"}]}]], "Input",
+   RowBox[{"If", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Length", "@", 
+       RowBox[{"val", "[", "x", "]"}]}], ">", "500"}], ",", 
+     RowBox[{"Return", "[", 
+      RowBox[{
+       RowBox[{"val", "[", "x", "]"}], "//", "Last"}], "]"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "Infinity"}], "}"}]}], "]"}]}], "Input",
  CellChangeTimes->{{3.8474343479530506`*^9, 3.8474343601075115`*^9}, 
-   3.8474343981281834`*^9, 3.847434452748711*^9},
- CellLabel->"In[3]:=",ExpressionUUID->"ca6e2e65-12d5-4ebf-a441-1a8925d81bf5"],
+   3.8474343981281834`*^9, 3.847434452748711*^9, {3.847435074996045*^9, 
+   3.847435184706386*^9}, {3.8474352935175*^9, 3.8474353189157147`*^9}, {
+   3.847436190687128*^9, 3.847436192694611*^9}},
+ CellLabel->"In[45]:=",ExpressionUUID->"ca6e2e65-12d5-4ebf-a441-1a8925d81bf5"],
 
 Cell[BoxData["76576500"], "Output",
- CellChangeTimes->{3.8474343954874516`*^9, 3.84743445396321*^9},
- CellLabel->"Out[3]=",ExpressionUUID->"d8c34086-f6f7-45ab-a725-3391d6231db6"]
+ CellChangeTimes->{
+  3.8474343954874516`*^9, 3.84743445396321*^9, {3.8474351484967594`*^9, 
+   3.847435204601452*^9}, {3.847435295261561*^9, 3.847435319254569*^9}, {
+   3.847436188363731*^9, 3.8474361937061324`*^9}},
+ CellLabel->"Out[47]=",ExpressionUUID->"09ecc874-eac3-40a0-a418-ecf71911ddf6"]
 }, Open  ]]
 },
-WindowSize->{818, 586},
-WindowMargins->{{Automatic, 107}, {129, Automatic}},
+WindowSize->{1003, 586},
+WindowMargins->{{Automatic, 317}, {101, Automatic}},
 FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (July 9, 2021)",
 StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "C:", "Users", "stary", 
    "AppData", "Roaming", "Mathematica", "SystemFiles", "FrontEnd", 
@@ -71,8 +79,8 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 840, 24, 163, "Input",ExpressionUUID->"ca6e2e65-12d5-4ebf-a441-1a8925d81bf5"],
-Cell[1423, 48, 178, 2, 42, "Output",ExpressionUUID->"d8c34086-f6f7-45ab-a725-3391d6231db6"]
+Cell[580, 22, 1088, 29, 101, "Input",ExpressionUUID->"ca6e2e65-12d5-4ebf-a441-1a8925d81bf5"],
+Cell[1671, 53, 332, 5, 42, "Output",ExpressionUUID->"09ecc874-eac3-40a0-a418-ecf71911ddf6"]
 }, Open  ]]
 }
 ]
