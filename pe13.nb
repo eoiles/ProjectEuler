@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      9159,        196]
-NotebookOptionsPosition[      8504,        177]
-NotebookOutlinePosition[      9077,        195]
-CellTagsIndexPosition[      9034,        192]
+NotebookDataLength[      9174,        196]
+NotebookOptionsPosition[      8519,        177]
+NotebookOutlinePosition[      9092,        195]
+CellTagsIndexPosition[      9049,        192]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -152,7 +152,7 @@ the answer need a 10 digit number\nwhihch is \!\(\*SuperscriptBox[\(10\), \
    RowBox[{"(", 
     RowBox[{
      RowBox[{"FractionalPart", "[", 
-      RowBox[{"Log10", "[", "n", "]"}], "]"}], " ", "+", " ", "9"}], ")"}]}], 
+      RowBox[{"Log10", "[", "n", "]"}], "]"}], "+", "9"}], ")"}]}], 
   "]"}]}], "Input",
  CellChangeTimes->{{3.847527629036973*^9, 3.84752770346245*^9}, {
   3.8475277338497705`*^9, 3.8475277479190383`*^9}, {3.847527798777446*^9, 
@@ -162,9 +162,9 @@ the answer need a 10 digit number\nwhihch is \!\(\*SuperscriptBox[\(10\), \
   3.8475284555996513`*^9, 3.8475285836440816`*^9}, {3.8475286221124105`*^9, 
   3.847528890458962*^9}, {3.8475289583144217`*^9, 3.8475290777540045`*^9}, {
   3.8475291098119593`*^9, 3.8475291371503286`*^9}, {3.8475291909958735`*^9, 
-  3.847529243706709*^9}},
- CellLabel->
-  "In[123]:=",ExpressionUUID->"684f69e7-9c55-4764-b4f0-1985718192a9"],
+  3.847529243706709*^9}, {3.8475293234925795`*^9, 
+  3.847529325357736*^9}},ExpressionUUID->"684f69e7-9c55-4764-b4f0-\
+1985718192a9"],
 
 Cell[BoxData["5537376230"], "Output",
  CellChangeTimes->{{3.8475287290029726`*^9, 3.847528735516488*^9}, {
@@ -195,8 +195,8 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 7518, 144, 3522, "Input",ExpressionUUID->"684f69e7-9c55-4764-b4f0-1985718192a9"],
-Cell[8101, 168, 387, 6, 67, "Output",ExpressionUUID->"5a484e15-7e6b-43d2-b096-49455d111947"]
+Cell[580, 22, 7533, 144, 3522, "Input",ExpressionUUID->"684f69e7-9c55-4764-b4f0-1985718192a9"],
+Cell[8116, 168, 387, 6, 42, "Output",ExpressionUUID->"5a484e15-7e6b-43d2-b096-49455d111947"]
 }, Open  ]]
 }
 ]
