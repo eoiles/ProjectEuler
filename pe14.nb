@@ -1,0 +1,91 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2590,         83]
+NotebookOptionsPosition[      1939,         64]
+NotebookOutlinePosition[      2511,         82]
+CellTagsIndexPosition[      2468,         79]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"c", "[", 
+    RowBox[{"x_", "/;", 
+     RowBox[{"EvenQ", "[", "x", "]"}]}], "]"}], ":=", 
+   RowBox[{
+    RowBox[{"c", "[", "x", "]"}], "=", 
+    RowBox[{"x", "/", "2"}]}]}], " "}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"c", "[", 
+    RowBox[{"x_", "/;", 
+     RowBox[{"OddQ", "[", "x", "]"}]}], "]"}], ":=", 
+   RowBox[{
+    RowBox[{"c", "[", "x", "]"}], "=", 
+    RowBox[{
+     RowBox[{"3", " ", "x"}], "+", "1"}]}]}], " "}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"f", "[", "1", "]"}], ":=", "1"}], " "}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"f", "[", "x_", "]"}], ":=", 
+   RowBox[{
+    RowBox[{"f", "[", "x", "]"}], "=", 
+    RowBox[{"1", "+", 
+     RowBox[{"f", "[", 
+      RowBox[{"c", "[", "x", "]"}], "]"}]}]}]}], " "}], "\[IndentingNewLine]", 
+ RowBox[{"MaximalBy", "[", 
+  RowBox[{
+   RowBox[{"Range", "[", "1000000", "]"}], ",", "f"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.847621800426334*^9, 3.847621800427331*^9}, {
+  3.847621838572935*^9, 3.8476218565297575`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"d34c8d7f-77d8-4049-bfb5-39086fc9b519"],
+
+Cell[BoxData[
+ RowBox[{"{", "837799", "}"}]], "Output",
+ CellChangeTimes->{3.8476218686696186`*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"39243dbe-40ad-4f13-bc46-7d3310dd2b95"]
+}, Open  ]]
+},
+WindowSize->{1272, 586},
+WindowMargins->{{Automatic, 111}, {69, Automatic}},
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (July 9, 2021)",
+StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "C:", "Users", "stary", 
+   "AppData", "Roaming", "Mathematica", "SystemFiles", "FrontEnd", 
+   "StyleSheets"}, "OD.nb", CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"b92c4388-4a35-4588-9b5a-0c1dcac39c10"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1163, 34, 163, "Input",ExpressionUUID->"d34c8d7f-77d8-4049-bfb5-39086fc9b519"],
+Cell[1746, 58, 177, 3, 67, "Output",ExpressionUUID->"39243dbe-40ad-4f13-bc46-7d3310dd2b95"]
+}, Open  ]]
+}
+]
+*)
+
