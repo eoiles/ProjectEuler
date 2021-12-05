@@ -1,0 +1,60 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1639,         52]
+NotebookOptionsPosition[       992,         33]
+NotebookOutlinePosition[      1564,         51]
+CellTagsIndexPosition[      1521,         48]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Binomial", "[", 
+  RowBox[{"40", ",", "20"}], "]"}]], "Input",
+ CellChangeTimes->{{3.847707391029587*^9, 3.8477073910305843`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"884dfe48-7f5c-4fca-9aa6-e6298782a23f"],
+
+Cell[BoxData["137846528820"], "Output",
+ CellChangeTimes->{3.8477073983959794`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"46c082f3-020e-48be-a3b2-afc58fdfe7e4"]
+}, Open  ]]
+},
+WindowSize->{557, 586},
+WindowMargins->{{673, Automatic}, {Automatic, 217}},
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (July 9, 2021)",
+StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "C:", "Users", "stary", 
+   "AppData", "Roaming", "Mathematica", "SystemFiles", "FrontEnd", 
+   "StyleSheets"}, "OD.nb", CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"6791f47c-cdaf-41c2-9e79-c5833f39db72"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 232, 4, 38, "Input",ExpressionUUID->"884dfe48-7f5c-4fca-9aa6-e6298782a23f"],
+Cell[815, 28, 161, 2, 42, "Output",ExpressionUUID->"46c082f3-020e-48be-a3b2-afc58fdfe7e4"]
+}, Open  ]]
+}
+]
+*)
+
