@@ -33,7 +33,7 @@ Cell[BoxData["137846528820"], "Output",
 }, Open  ]]
 },
 WindowSize->{557, 586},
-WindowMargins->{{673, Automatic}, {Automatic, 217}},
+WindowMargins->{{Automatic, 283}, {Automatic, 117}},
 FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (July 9, 2021)",
 StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "C:", "Users", "stary", 
    "AppData", "Roaming", "Mathematica", "SystemFiles", "FrontEnd", 
