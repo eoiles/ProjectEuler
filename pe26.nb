@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1960,         63]
-NotebookOptionsPosition[      1311,         44]
-NotebookOutlinePosition[      1883,         62]
-CellTagsIndexPosition[      1840,         59]
+NotebookDataLength[      2000,         63]
+NotebookOptionsPosition[      1353,         44]
+NotebookOutlinePosition[      1923,         62]
+CellTagsIndexPosition[      1880,         59]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -26,24 +26,24 @@ Cell[BoxData[
    RowBox[{"Range", "[", "999", "]"}], ",", 
    RowBox[{
     RowBox[{"Length", "@", 
-     RowBox[{"Flatten", "@", 
-      RowBox[{"Level", "[", 
-       RowBox[{
-        RowBox[{"RealDigits", "[", 
-         RowBox[{"1", "/", "#"}], "]"}], ",", 
-        RowBox[{"{", 
-         RowBox[{"-", "2"}], "}"}]}], "]"}]}]}], "&"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.8488241694114585`*^9, 3.848824169412424*^9}},
- CellLabel->"In[1]:=",ExpressionUUID->"9db77a9c-9d31-4da4-bc8d-69728678edc9"],
+     RowBox[{"Level", "[", 
+      RowBox[{
+       RowBox[{"RealDigits", "[", 
+        RowBox[{"1", "/", "#"}], "]"}], ",", 
+       RowBox[{"{", "3", "}"}]}], "]"}]}], "&"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8488241694114585`*^9, 3.848824169412424*^9}, {
+  3.848824345114378*^9, 3.848824357818726*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"9db77a9c-9d31-4da4-bc8d-69728678edc9"],
 
 Cell[BoxData[
  RowBox[{"{", "983", "}"}]], "Output",
- CellChangeTimes->{3.8488241808048286`*^9},
- CellLabel->"Out[1]=",ExpressionUUID->"5f4aa874-8df8-4a9f-919e-e305cbf49774"]
+ CellChangeTimes->{
+  3.8488241808048286`*^9, {3.8488243524110785`*^9, 3.8488243582333765`*^9}},
+ CellLabel->"Out[12]=",ExpressionUUID->"ca95c22b-30d3-43c7-8a57-61350f83e15e"]
 }, Open  ]]
 },
 WindowSize->{779, 586},
-WindowMargins->{{Automatic, 471}, {107, Automatic}},
+WindowMargins->{{Automatic, 241}, {9, Automatic}},
 FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (July 9, 2021)",
 StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "C:", "Users", "stary", 
    "AppData", "Roaming", "Mathematica", "SystemFiles", "FrontEnd", 
@@ -62,8 +62,8 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 538, 14, 38, "Input",ExpressionUUID->"9db77a9c-9d31-4da4-bc8d-69728678edc9"],
-Cell[1121, 38, 174, 3, 67, "Output",ExpressionUUID->"5f4aa874-8df8-4a9f-919e-e305cbf49774"]
+Cell[580, 22, 526, 13, 38, "Input",ExpressionUUID->"9db77a9c-9d31-4da4-bc8d-69728678edc9"],
+Cell[1109, 37, 228, 4, 42, "Output",ExpressionUUID->"ca95c22b-30d3-43c7-8a57-61350f83e15e"]
 }, Open  ]]
 }
 ]
