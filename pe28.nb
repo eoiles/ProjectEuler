@@ -1,0 +1,93 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2876,         85]
+NotebookOptionsPosition[      2224,         66]
+NotebookOutlinePosition[      2796,         84]
+CellTagsIndexPosition[      2753,         81]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"\"\<solved by hand\nfor a size of x*x spiral matrix\nvalue 4 \
+angle:{x^2,1-x+x^2,2-2 x+x^2,3-3 x+x^2}\nsum of one layer:6-6 x+4 x^2\nsum of \
+all layer:let k means k-th layer,then x=2 k-1,which is clear\nthen sum of \
+k-th layer:4 (4-7 k+4 k^2)\nthen sum of first y layers\nSum[4 (4-7 k+4 \
+k^2),{k,2,y}]+1\nsum start from 2 and+1 at last because formula don' t \
+include 1-st layer\nthen do a simplification\nthen sum of first y layers\n\
+-3+2/3 y (y+k (-9+8 y))\nsince y=(x+1)/2 which is clear\nthen put back x in \
+to formula we have:sum=1/6 (-9+x (8+x (3+4 x)))\>\"", 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"sum", "=", 
+  RowBox[{
+   RowBox[{"1", "/", "6"}], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"-", "9"}], "+", 
+     RowBox[{"x", " ", 
+      RowBox[{"(", 
+       RowBox[{"8", "+", 
+        RowBox[{"x", " ", 
+         RowBox[{"(", 
+          RowBox[{"3", "+", 
+           RowBox[{"4", " ", "x"}]}], ")"}]}]}], ")"}]}]}], 
+    ")"}]}]}]}], "Input",
+ CellChangeTimes->{{3.8490727163097544`*^9, 3.8490727457947855`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"f1d12a59-86ee-48be-b558-25dbeaf04017"],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", "6"], " ", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"-", "9"}], "+", 
+    RowBox[{"x", " ", 
+     RowBox[{"(", 
+      RowBox[{"8", "+", 
+       RowBox[{"x", " ", 
+        RowBox[{"(", 
+         RowBox[{"3", "+", 
+          RowBox[{"4", " ", "x"}]}], ")"}]}]}], ")"}]}]}], ")"}]}]], "Output",
+ CellChangeTimes->{{3.8490727414512997`*^9, 3.8490727461158624`*^9}},
+ CellLabel->"Out[4]=",ExpressionUUID->"0609d720-1beb-4340-b57f-d00c202a33d5"]
+}, Open  ]]
+},
+WindowSize->{848, 586},
+WindowMargins->{{Automatic, 393}, {Automatic, 217}},
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (July 9, 2021)",
+StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "C:", "Users", "stary", 
+   "AppData", "Roaming", "Mathematica", "SystemFiles", "FrontEnd", 
+   "StyleSheets"}, "OD.nb", CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"e5132d38-d3ea-4574-b695-75728a2fcf43"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1143, 25, 473, "Input",ExpressionUUID->"f1d12a59-86ee-48be-b558-25dbeaf04017"],
+Cell[1726, 49, 482, 14, 69, "Output",ExpressionUUID->"0609d720-1beb-4340-b57f-d00c202a33d5"]
+}, Open  ]]
+}
+]
+*)
+
