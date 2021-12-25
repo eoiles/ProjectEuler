@@ -1,0 +1,74 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2274,         66]
+NotebookOptionsPosition[      1624,         47]
+NotebookOutlinePosition[      2196,         65]
+CellTagsIndexPosition[      2153,         62]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+  "\"\<s(x)=sum of 5th power of all digits then calculate the upper bound of \
+digits length:consider a 6 digits number first:s(999999)=354294,this is clear \
+that s(x) no long greater than x after x>999999,since every digits \
+is'max',which is 9 then try to modify the 1st digits lower,it is super easy \
+to find this value:s(299999)=295277 then 299999 is a approximately upper \
+bound of x.then the rest is just a loop:\>\"", ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Total", "@", 
+   RowBox[{"Select", "[", 
+    RowBox[{
+     RowBox[{"Range", "[", "229999", "]"}], ",", "f"}], "]"}]}], "-", 
+  "1"}]}], "Input",
+ CellChangeTimes->{{3.8494347559520645`*^9, 3.849434779093734*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"3be07e7c-9d24-4628-9e90-fe7261b8d7e2"],
+
+Cell[BoxData[
+ RowBox[{"-", "1"}]], "Output",
+ CellChangeTimes->{{3.849434776877494*^9, 3.8494347794267287`*^9}},
+ CellLabel->"Out[4]=",ExpressionUUID->"4c26cfd7-19bb-4848-886e-830d5b9de25a"]
+}, Open  ]]
+},
+WindowSize->{749, 586},
+WindowMargins->{{Automatic, 482}, {Automatic, 217}},
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (July 9, 2021)",
+StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "C:", "Users", "stary", 
+   "AppData", "Roaming", "Mathematica", "SystemFiles", "FrontEnd", 
+   "StyleSheets"}, "OD.nb", CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"8ccd8695-edf3-4465-8f57-26eebd68ed82"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 834, 17, 287, "Input",ExpressionUUID->"3be07e7c-9d24-4628-9e90-fe7261b8d7e2"],
+Cell[1417, 41, 191, 3, 67, "Output",ExpressionUUID->"4c26cfd7-19bb-4848-886e-830d5b9de25a"]
+}, Open  ]]
+}
+]
+*)
+
